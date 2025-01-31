@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet house</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/c2cdab565e.js" crossorigin="anonymous"></script>
+    <style>
+        .adlam-display-font {
+        font-family: "ADLaM Display", serif;
+       
+        }
+
+    </style>
+    <style>
+        hr{
+            border-top: 1px solid black;
+        }
+    </style>
+
+</head>
+<body class="adlam-display-font">
+    <header>
+        <nav class="" >
+            <div class="navbar bg-[#FFF9F4] mx-auto flex justify-between">
+                <div class="mr-10"><a class="btn btn-ghost text-xl   "><span> <img class="w-2/3" src="./c1-assets/logo-header.png" alt=""></span><span class="hidden lg:block">Browse4Pets</span></a></div>
+                <div class=" navbar-start    ">
+                    
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Find a pet</a></li>
+                      <li>
+                        <a>Breedst</a>
+                        
+                      </li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                   
+                  </div>
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>
+                    <li>
+                      <a> Breeds</a>
+                     </li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end hidden lg:block ml-16 mr-5">
+                    <a href=""><i class="fa-regular fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                 <a class="btn btn-outline btn-warning">Login</a>
+                  <a class="btn btn-warning">Register</a>
+                </div>
+              </div>
+             <div class="lg:hidden"><hr></div>
+        </nav>
+        <!-- banner  -->
+        <div class="md:flex items-center justify-center min-h-screen  bg-white  p-4  mx-auto">
+            <div class="max-w-4xl flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
+                <!-- Text Content -->
+                <div class="md:w-1/2 text-left md:text-left">
+                    <h1 class="text-3xl font-bold text-gray-900 leading-tight">
+                        Pamper Your Pet, <br class=" md:inline"> Because They Deserve <br class="hidden md:inline"> the Best
+                    </h1>
+                    <p class="text-gray-600 mt-4">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+                        Shop now and make tails wag with joy!
+                    </p>
+                    <button class="mt-6 px-4 py-2 bg-yellow-400 text-black font-semibold rounded-md hover:bg-yellow-500 transition">
+                        Find a pet
+                    </button>
+                </div>
+            
+                <div class="   ">
+                    <img src="./c1-assets/cat-big-removebg-preview.png" alt="Cute Cat" class="w-full rounded-lg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <body>
+        <section class="my-32  bg-whit  ">
+            <div class="max-w-[1040px]  mx-auto">
+                <h3 class="">Browse By Categories</h3>
+            <!-- card -->
+            <div class="grid grid-cols-2 gap-12  mt-7 md:grid-cols-3 lg:grid-cols-6 mx-auto sm:ml-4"> 
+                <div class="bg-[#F9DF8A] w-40 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl ">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/dog-cartoon.png" alt="">
+                <h3>Dog</h3>
+                <p>3 items</p>
+             </div>
+             <div class="bg-[#F9DF8A] w-36 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/fish-cartoon.png" alt="">
+                <h3>Fish</h3>
+                <p>3 items</p>
+             </div>
+             <div class="bg-[#F9DF8A] w-36 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/cat-cartoon.png" alt="">
+                <h3>Cat</h3>
+                <p>3 items</p>
+             </div>
+             <div class="bg-[#F9DF8A] w-36 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/bird-cartoon.png" alt="">
+                <h3>Bird</h3>
+                <p>3 items</p>
+             </div>
+             <div class="bg-[#F9DF8A] w-36 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/mouse-cartoon.png" alt="">
+                <h3>Small Pet</h3>
+                <p>3 items</p>
+             </div>
+             <div class="bg-[#F9DF8A] w-36 h-52 items-center flex flex-col gap-y-4 pt-7 rounded-xl">
+                <img class="w-[30%] bg-white rounded-full p-2" src="./c1-assets/rabbit-cartoon.png" alt="">
+                <h3>Rabbit</h3>
+                <p>3 items</p>
+             </div></div>
+
+            </div>
+        </section>
+        <section class="mb-32 bg-[#FFF9F4] ">
+            <div class="max-w-[1040px]  mx-auto p-20">
+                <h2 class="text-4xl">Trending Pet Products</h2>
+               <div class="flex">
+                <div class="w-80 h-80 bg-[#F9DF8A] rounded-xl p-5 mt-4">
+                    <h2 class="text-3xl text-[#000000]">T- Shirt For Dogs</h2>
+                    <p class="text-[#111111] text-sm mt-5 mb-5">Discover a world of treats, toys, and essentials handpicked for </p>
+                    <button class="bg-white rounded-xl text-sm px-5 py-2">Shop Now</button>
+                    <div>
+                        <img class="w-[60%] relative -top-24 left-36" src="./c1-assets/cute-pet-small.png" alt="">
+                    </div>
+                </div>
+                <div class="bg-[#FFFFFF] w-[275px] flex gap-5 p-3 rounded-xl items-center">
+                    <div>
+                        <img class="bg-[#FFF9F4] rounded-sm w-[70%] p-2" src="./c1-assets/cat-cartoon.png" alt="">
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-star"></i>4.5</span>
+                        <p>Pet Bet</p>
+                        <p>$39.99</p>
+                    </div>
+               </div>
+               
+            </div>
+
+                
+            </div>
+          
+        </section>
+    </body>
+    <footer>
+
+    </footer>
+</body>
+</html>
